@@ -5,9 +5,9 @@ const operations = {
     multi: '*'
 }
 function calc(operator, a, b) {
-    if (Number(a) && Number(b)) {
+    if (isFinite(a) && isFinite(b)) {
         switch (operator) {
-            case operations.add: (c = a + b);
+            case operations.add: (c = Number(a) + Number(b));
                 break;
             case operations.minus: (c = a - b);
                 break;
@@ -19,4 +19,4 @@ function calc(operator, a, b) {
     }
     else { console.log('error') };
 }
-console.log(calc(operations.add, 5, 5));
+console.log(calc(operations.add, "12", 5));
