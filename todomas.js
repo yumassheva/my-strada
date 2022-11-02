@@ -53,5 +53,4 @@ function show(statusName) {
 changeStatus("do strada", STATUS.DONE);
 deleteTask("make breakfast");
 addTask("make bed");
-//console.log(showList());
 showList();
