@@ -1,0 +1,22 @@
+
+.content {
+        width: 50%;
+            height: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -125px 0 0 -125px;
+}
+.inputs{
+    width: 100px;
+    margin-right: 10px;
+}
+.marg{
+    margin-right: 10px;
+}
+.div{
+background-color:bisque;
+margin: 5px 0 5px 0;
+border-radius: 5px;
+width: 55%;
+}
