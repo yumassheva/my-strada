@@ -1,0 +1,41 @@
+.todo{
+    width: 300px;
+    margin: auto;
+}
+.addnametask{
+    display: flex;
+    width: 200px;
+    border: solid 1px;
+    height: 30px;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 4px;
+}
+.addtask_low, .addtask_high{
+    border: none;
+    background-color: white;
+}
+.input, .input_low{
+    border: none;
+}
+.deletetask{
+    height: 20px;
+  transform: rotate(45deg);
+border: none;
+background-color: white;
+}
+.task,.task_low{
+    display: flex;
+    width: 200px;
+    margin-top: 5px;
+    padding: 5px;
+    border: solid 1px;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+.div{
+    background-color: rgb(215, 215, 245);
+        margin: 5px 0 5px 0;
+        border-radius: 5px;
+        width:200px;
+}
